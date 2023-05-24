@@ -1,0 +1,43 @@
+/* .consultation-container {
+    margin-top: 20px;
+  }
+   */
+  .add-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+  }
+  
+  .consultation-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: red;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .action-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .action-container .btn-info {
+    margin-right: 10px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .action-container .btn-info:hover {
+    background-color: #138496;
+  }
+  

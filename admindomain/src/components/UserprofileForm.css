@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile-card,
+.medical-card {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+}
+
+.profile-card-title,
+.medical-card-title,
+.disease-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile-card-text,
+.medical-card-text,
+.disease-info {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.disease-item {
+  margin-bottom: 16px;
+}

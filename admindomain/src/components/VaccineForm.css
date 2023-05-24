@@ -1,0 +1,46 @@
+.vaccine-form-container {
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+  
+  .vaccine-form-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .vaccine-form-container form div {
+    margin-bottom: 20px;
+  }
+  
+  .vaccine-form-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .vaccine-form-container select,
+  .vaccine-form-container input[type="datetime-local"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .vaccine-form-container button.submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .vaccine-form-container .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  

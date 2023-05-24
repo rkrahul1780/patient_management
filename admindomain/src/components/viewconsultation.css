@@ -1,0 +1,41 @@
+.data-info {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .data-info .row {
+    margin-bottom: 10px;
+  }
+  
+  .data-info .row label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .data-info .row span {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .data-info .back-button {
+    margin-top: 20px;
+  }
+  
+  .data-info .back-button a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .data-info .back-button a:hover {
+    background-color: #0056b3;
+  }
+  
